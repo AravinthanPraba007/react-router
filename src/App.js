@@ -4,7 +4,7 @@ import Nav from './Components/Nav';
 import Welcome from './Components/Welcome';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
-import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
+import {HashRouter as Router, Switch,Route} from 'react-router-dom';
 import ForgetPassword from './Components/ForgetPassword';
 
 function App() {
